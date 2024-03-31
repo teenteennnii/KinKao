@@ -5,6 +5,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import lombok.Data;
 import java.util.UUID;
+import java.time.Instant;
 
 
 @Data
@@ -20,4 +21,5 @@ public class Member {
    private String password;
    private String firstName;
    private String lastName;
+   private Instant createdAt;
 }
