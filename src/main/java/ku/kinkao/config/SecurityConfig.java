@@ -1,6 +1,6 @@
 package ku.kinkao.config;
 
-import ku.kinkao.service.UserDetailsServiceImp;
+// import ku.kinkao.service.UserDetailsServiceImp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,9 +21,8 @@ import org.springframework.context.ApplicationContext;
 @EnableWebSecurity
 public class SecurityConfig {
 
-
-   @Autowired
-   private UserDetailsServiceImp userDetailsService;
+//    @Autowired
+//    private UserDetailsServiceImp userDetailsService;
 
    @Autowired
    private OidcUserService oidcUserService;
